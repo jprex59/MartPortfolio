@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" class="has-navbar-fixed-top">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="./css/all.css" />
+
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+		<script src="https://kit.fontawesome.com/b8f4ab5226.js" crossorigin="anonymous"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+		<title>home</title>
+	</head>
+	<body>
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="https://bulma.io"><p class="title is-4">Martin Vion</p></a>
+
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
+
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+					<a class="navbar-item"> Home </a>
+
+					<a class="navbar-item"> Projets </a>
+
+					<div class="navbar-item">
+						<div class="buttons">
+							<a class="button is-black">
+								<strong>Contact</strong>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="navbar-end">
+					<div class="navbar-item anim-items">
+						<a class="nav_title">
+							<div class="span-container s1">
+								<span> Home</span>
+							</div>
+							<div class="span-container s2">
+								<span> Home</span>
+							</div> </a
+						><a class="nav_title">
+							<div class="span-container s1">
+								<span>Projets</span>
+							</div>
+							<div class="span-container s2">
+								<span>Projets</span>
+							</div>
+						</a>
+						<a class="nav_title nav-button button is-black">
+							<div class="span-container s1">
+								<span>Contact</span>
+							</div>
+							<div class="span-container s2">
+								<span>Contact</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="nav_own"></div>
+		<script type="text/javascript" src="./js/index.js"></script>
+		<script type="text/javascript" src="./js/all.js"></script>
+
+		<script>
+			AOS.init();
+		</script>
+	</body>
+</html>

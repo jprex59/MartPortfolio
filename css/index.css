@@ -1,64 +1,58 @@
-.nav_title {
+body {
+	background-color: #162527;
+}
+.home {
+	height: calc(100vh - 52px);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.home-container {
+	width: 50%;
+	height: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_left {
+	background-image: url("../img/bgHome/NYC.jpg");
+	background-size: cover;
+	background-position: top center;
+}
+.home_right {
 	position: relative;
-	margin-right: 20px;
-	cursor: pointer;
+	padding-bottom: 20px;
 }
-.nav_title span {
-	color: rgb(0, 0, 0);
+.home_right p {
+	width: 80%;
 	font-size: 20px;
-	transition: 0.3s;
-	font-weight: 500;
-	will-change: transform;
-	display: inline-block;
-	text-decoration: double;
+	color: #fff !important;
+	text-align: justify;
 }
-
-.s1 span {
-	transform-origin: bottom;
-}
-.s2 span {
-	transform-origin: top;
-	transform: translateY(100%) rotateX(-90deg);
-}
-.s2 {
+.home_link {
 	position: absolute;
-	top: 0;
+	bottom: 30px;
 	left: 0;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.nav_title:hover .s1 span {
-	transform: translateY(-100%) rotateX(-90deg);
-}
-.nav_title:hover .s2 span {
-	transform: translateY(0%) rotateX(0deg);
-}
-
-.nav-button .s2 {
-	left: 15px !important;
-	top: 5px !important;
-}
-.nav-button span {
+.home_link i {
+	font-size: 25px;
 	color: #fff;
-}
-.navbar-start {
-	display: none;
+	margin: 20px;
 }
 
-@media all and (max-width: 1023px) {
-	.anim-items {
-		display: none;
+@media all and (max-width: 600px) {
+	.home-container {
+		width: 100%;
+		height: 50%;
 	}
-	.navbar-start {
-		display: block;
-	}
-	.navbar-menu {
-		display: flex !important;
-		height: 0 !important;
-		transition: all 0.5s !important;
-		padding: 0 !important;
-	}
-	.navbar-menu.is-active {
-		height: 150px !important;
-		padding: 0.5rem 0 !important;
+	.home_link {
+		bottom: -10px;
 	}
 }

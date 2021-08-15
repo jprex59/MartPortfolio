@@ -33,7 +33,7 @@ body {
 }
 .home_link {
 	position: absolute;
-	bottom: 30px;
+	bottom: 50px;
 	left: 0;
 	width: 100%;
 	display: flex;
@@ -45,6 +45,11 @@ body {
 	font-size: 25px;
 	color: #fff;
 	margin: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+.home_link i:hover {
+	color: grey;
 }
 
 @media all and (max-width: 600px) {
@@ -53,6 +58,12 @@ body {
 		height: 50%;
 	}
 	.home_link {
-		bottom: -10px;
+		bottom: 20px;
+	}
+}
+
+@media all and (max-width: 350px) {
+	.home_right p {
+		font-size: 16px;
 	}
 }

@@ -33,12 +33,14 @@ body {
 }
 .home_link {
 	position: absolute;
-	bottom: 50px;
+	bottom: 20%;
 	left: 0;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+	color: #fff;
 }
 
 .home_link i {
@@ -52,6 +54,10 @@ body {
 	color: grey;
 }
 
+.home_link p {
+	font-size: 15px;
+}
+
 @media all and (max-width: 600px) {
 	.home-container {
 		width: 100%;
@@ -60,10 +66,39 @@ body {
 	.home_link {
 		bottom: 20px;
 	}
+	.home_right p {
+		height: 65%;
+	}
 }
+@media all and (max-width: 490px) {
+	.home_right p {
+		font-size: 18px;
+	}
 
+	.home_right p {
+		height: 80%;
+	}
+	.home_link p {
+		font-size: 11px;
+	}
+}
 @media all and (max-width: 350px) {
 	.home_right p {
 		font-size: 16px;
+	}
+	.home_link i {
+		font-size: 17px;
+	}
+	.home_right p {
+		height: 80%;
+	}
+	.home_link p {
+		font-size: 11px;
+	}
+}
+
+@media all and (max-height: 900px) {
+	.home_link {
+		bottom: 15%;
 	}
 }

@@ -53,7 +53,9 @@ body {
 	left: 0;
 	transition: all 0.5s;
 }
-
+nav {
+	transition: all 0.5s;
+}
 .nav_title:hover .s1 span {
 	transform: translateY(-100%) rotateX(-90deg);
 }
@@ -96,6 +98,9 @@ body {
 		height: 200px !important;
 		padding: 0.5rem 0 !important;
 	}
+	.navbar-burger {
+		color: #fff !important;
+	}
 }
 
 /******************/
@@ -122,12 +127,6 @@ body {
 }
 .icons span a i:hover {
 	color: grey;
-}
-
-@media all and (max-width: 600px) {
-	.icons span a i {
-		font-size: 17px;
-	}
 }
 
 .box {
@@ -162,10 +161,7 @@ img {
 }
 .side1 .info {
 	font-size: 20px;
-	padding: 25px;
 	width: 60%;
-	border: solid 1px #f1f1f136;
-	border-radius: 10px;
 }
 
 .half_side {
@@ -189,6 +185,12 @@ img {
 
 .img-own {
 	max-width: 300px;
+}
+
+.box-is-black {
+	padding: 25px;
+	border: solid 1px #f1f1f136;
+	border-radius: 10px;
 }
 
 @media all and (max-width: 900px) {

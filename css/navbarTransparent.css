@@ -8,6 +8,9 @@
 }
 .is-inverted {
 	background-color: #f1f1f1 !important;
+}
+
+.is-inverted div span {
 	color: #162527 !important;
 }
 
@@ -21,4 +24,8 @@
 
 .MartCorp {
 	color: #f1f1f1 !important;
+}
+
+.is-offset {
+	background-color: #162527;
 }

@@ -5,7 +5,7 @@
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: flex-end;
 }
 
 .sec .dot {
@@ -48,7 +48,7 @@
 }
 
 .sec .dot.active::before {
-	content: "Dark Mode";
+	content: "Clic Me";
 	color: #00ebbc;
 }
 

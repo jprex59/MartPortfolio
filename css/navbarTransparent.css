@@ -1,0 +1,24 @@
+.is-black {
+	background-color: #fff0 !important;
+}
+
+.is-primary {
+	background-color: #162527 !important;
+	color: #f1f1f1 !important;
+}
+.is-inverted {
+	background-color: #f1f1f1 !important;
+	color: #162527 !important;
+}
+
+.nav_title span {
+	color: #f1f1f1 !important;
+}
+
+.nav_title:hover .s2 span {
+	color: #a64922 !important;
+}
+
+.MartCorp {
+	color: #f1f1f1 !important;
+}

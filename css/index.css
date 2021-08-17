@@ -78,7 +78,7 @@
 		font-size: 11px;
 	}
 }
-@media all and (max-width: 350px) {
+@media all and (max-width: 360px) {
 	.home_right p {
 		font-size: 16px;
 	}
@@ -96,5 +96,11 @@
 @media all and (max-height: 900px) {
 	.home_link {
 		bottom: 15%;
+	}
+}
+
+@media all and (max-height: 570px) {
+	.home_link i {
+		font-size: 15px;
 	}
 }
